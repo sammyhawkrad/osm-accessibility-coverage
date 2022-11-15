@@ -1,9 +1,18 @@
-<script setup>
-import TheWelcome from "../components/TheWelcome.vue";
+<script>
+import MapComponent from "../components/MapComponent.vue";
+
+export default {
+  components: { MapComponent },
+  data() {
+    return {
+      src: "http://u.osmfr.org/m/827744/",
+    };
+  },
+};
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <MapComponent :src="src" />
   </main>
 </template>
