@@ -4,8 +4,8 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <header>
+    <h1>OSM Accessibility Coverage</h1>
     <nav>
-      <span>OSM Accessibility Coverage</span>
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/accessible-places">Accessible Places</RouterLink>
       <RouterLink to="/inaccessible-places">Inaccessible Places</RouterLink>
@@ -20,16 +20,30 @@ import { RouterLink, RouterView } from "vue-router";
 <style scoped>
 header {
   line-height: 1.5;
-  max-height: 100vh;
+  display: flex;
+  place-items: center;
+  padding-left: 1rem;
+  box-shadow: 1px 1px 5px rgb(187, 187, 187);
+  z-index: 5;
+}
+
+header .wrapper {
+  display: flex;
+  place-items: flex-start;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 1.2rem;
 }
 
 nav {
-  width: 100%;
   font-size: 12px;
   text-align: center;
-  margin-top: 1rem;
-  padding: 2rem;
-
+  padding: 1.5rem;
+  text-align: right;
+  margin-left: -1rem;
+  font-size: 1rem;
 }
 
 nav a.router-link-exact-active {
@@ -43,33 +57,10 @@ nav a.router-link-exact-active:hover {
 nav a {
   display: inline-block;
   padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+  /* border-left: 1px solid var(--color-border); */
 }
 
 nav a:first-of-type {
   border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 2rem;
-    margin-top: 1rem;
-  }
 }
 </style>

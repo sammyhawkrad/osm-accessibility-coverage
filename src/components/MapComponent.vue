@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="map">
     <iframe
       width="100%"
       height="100%"
@@ -17,4 +17,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.map {
+  height: 100vh;
+}
+</style>
