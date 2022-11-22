@@ -12,7 +12,5 @@ export default {
 </script>
 
 <template>
-  <main>
-    <MapComponent :src="src" />
-  </main>
+  <MapComponent :src="src" />
 </template>

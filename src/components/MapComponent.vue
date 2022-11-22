@@ -19,6 +19,6 @@ export default {
 
 <style scoped>
 .map {
-  height: 100vh;
+  height: inherit;
 }
 </style>

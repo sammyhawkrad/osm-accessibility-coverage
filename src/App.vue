@@ -13,24 +13,23 @@ import { RouterLink, RouterView } from "vue-router";
       <RouterLink to="/about">About</RouterLink>
     </nav>
   </header>
-
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
   display: flex;
+  align-items: center;
   place-items: center;
-  padding-left: 1rem;
-  box-shadow: 1px 1px 5px rgb(187, 187, 187);
-  z-index: 5;
-}
-
-header .wrapper {
-  display: flex;
-  place-items: flex-start;
-  flex-wrap: wrap;
+  padding: 0 2rem;
+  box-shadow: 1px 1px 5px lightgrey;
+  position: relative;
+  top: 0;
+  background: white;
+  height: 4rem;
 }
 
 h1 {
@@ -40,12 +39,20 @@ h1 {
 nav {
   font-size: 12px;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1rem;
   text-align: right;
-  margin-left: -1rem;
   font-size: 1rem;
+  flex-grow: 2;
 }
 
+main {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 4rem;
+  bottom: 0;
+  height: calc(100vh - 4rem);
+}
 nav a.router-link-exact-active {
   color: var(--color-text);
 }
@@ -56,7 +63,7 @@ nav a.router-link-exact-active:hover {
 
 nav a {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
   /* border-left: 1px solid var(--color-border); */
 }
 
