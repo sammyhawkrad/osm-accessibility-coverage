@@ -26,10 +26,12 @@ header {
   place-items: center;
   padding: 0 2rem;
   box-shadow: 1px 1px 5px lightgrey;
-  position: relative;
+  position: fixed;
   top: 0;
   background: white;
   height: 4rem;
+  width: 100%;
+  z-index: 5;
 }
 
 h1 {
@@ -47,7 +49,6 @@ nav {
 
 main {
   width: 100%;
-  overflow: hidden;
   position: absolute;
   top: 4rem;
   bottom: 0;

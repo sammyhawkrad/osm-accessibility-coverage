@@ -20,5 +20,6 @@ export default {
 <style scoped>
 .map {
   height: inherit;
+  overflow: hidden;
 }
 </style>
