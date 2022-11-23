@@ -1,11 +1,16 @@
-<template>
-  <div>Page for Accessible places</div>
-</template>
-
 <script>
-    export default {
-        
-    }
+import MapComponent from "../components/MapComponent.vue";
+
+export default {
+  components: { MapComponent },
+  data() {
+    return {
+      src: "http://u.osmfr.org/m/827744/",
+    };
+  },
+};
 </script>
 
-<style scoped></style>
+<template>
+  <MapComponent :src="src" />
+</template>
