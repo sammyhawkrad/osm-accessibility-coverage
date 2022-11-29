@@ -4,7 +4,7 @@
           <section>
               <article>
                 <h1>How to contribute</h1>
-                  <p>We need you to contribute</p>
+                  <p></p>
               </article>
           </section> 
         </div> 
