@@ -120,8 +120,4 @@ h2{
 
 }
 
-table{
-  width: 100%;
-  border: 1px solid;
-}
 </style>
