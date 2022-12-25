@@ -25,10 +25,10 @@ header {
   align-items: center;
   place-items: center;
   padding: 0 2rem;
-  box-shadow: 1px 1px 5px lightgrey;
+  box-shadow: 1px 1px 5px gray;
   position: fixed;
   top: 0;
-  background: white;
+  background: var(--color-background);
   height: 4rem;
   width: 100%;
   z-index: 5;

@@ -38,15 +38,15 @@
             After you set up your OSM account, you can follow this step by step guide to set up GoMap!! and start mapping.</p> 
             <p>The GoMap!! interface is a map with a cross in its center. </p>
             <p>You can simply add information to where the centered cross is by pressing the plus button.
-            <img src="src/assets/gomap/1_1.png" alt="Screenshot 1" style="width:200px; height:300px;"></p>
+            <img src="src/assets/gomap/1_1.PNG" alt="Screenshot 1" style="width:200px; height:300px;"></p>
             <p> You can either add attributes or add a hint. To add a tag, press attribute.
-            <img src="src/assets/gomap/1_2.png" alt="Screenshot 2" style="width:200px; height:300px;"></p>
+            <img src="src/assets/gomap/1_2.PNG" alt="Screenshot 2" style="width:200px; height:300px;"></p>
             <p>Add the key (Schlüssel) and its value (Wert). In this example i added a lowered kerb to a sidewalk and press save.
-            <img src="src/assets/gomap/1_3.png" alt="Screenshot 3" style="width:200px; height:300px;"></p>
+            <img src="src/assets/gomap/1_3.PNG" alt="Screenshot 3" style="width:200px; height:300px;"></p>
             <p>To upload the tag, press the cloud symbol in the downright corner.
-            <img src="src/assets/gomap/1_4.png" alt="Screenshot 4" style="width:200px; height:300px;"></p>
+            <img src="src/assets/gomap/1_4.PNG" alt="Screenshot 4" style="width:200px; height:300px;"></p>
             <p>Now add your commit comment and your source. Press upload.
-            <img src="src/assets/gomap/1_5.png" alt="Screenshot 5" style="width:200px; height:300px"></p>
+            <img src="src/assets/gomap/1_5.PNG" alt="Screenshot 5" style="width:200px; height:300px"></p>
             <p>You just added information to OpenStreetMap!</p><br />
       </article>
     </section>
