@@ -20,6 +20,7 @@
             Or the Step to step OSM guide by
             <a href=https://learnosm.org/en>Learn OSM</a>!</p>
       </article>
+ <!-- <div id="StreetComplete-Container">   
       <article id="StreetComplete">
         <h2>Contribute with mobile</h2>
         <h3>StreetComplete (Android)</h3>
@@ -31,6 +32,8 @@
             e.g. "What is the name of this street?"
             The app automatically uploads the information and tags them accordingly.</p><br />
           </article>
+  </div> -->
+  <!--<div id="GoMap">
           <article id="GoMap">
         <h3>GoMap!! (iOS)</h3>
           <p>This app can also be used to tag information with your mobile phone,
@@ -49,8 +52,63 @@
             <img src="src/assets/gomap/1_5.png" alt="Screenshot 5" style="width:200px; height:300px"></p>
             <p>You just added information to OpenStreetMap!</p><br />
       </article>
+  </div> -->
     </section>
+  
+    <div class="gallery1" id="StreetComplete"><h2>StreetComplete Guide</h2></div>
+
+    <div class="gallery2" id="GoMap"><h2>GoMap!! Guide</h2>
+        <p>This app can also be used to tag information with your mobile phone,
+           but unlike streetcomplete, OSM knowledge and a OSM account is needed.
+           After you set up your OSM account, you can follow this step by step guide to set up GoMap!! and start mapping.</p>
+    
+    <h4>Step 1</h4>
+    <div class="galleryimg" id="Screenshot 1">
+      <!--<a target="_blank" href="1_1.png">-->
+          <img src="src/assets/gomap/1_1.png" alt="GoMap Interface" width="200" height="auto">
+      <!--</a>-->
+      <div class="desc">The GoMap!! interface is a map with a cross in its center.
+    You can simply add information to where the centered cross is by pressing the plus button.
+      </div>
+    </div>
+
+    <h4>Step 2</h4>
+    <div class="galleryimg" id="Screenshot 2">
+        <!--<a target="_blank" href="1_2.png">-->
+          <img src="src/assets/gomap/1_2.png" alt="GoMap Interface" width="200" height="auto">
+        <!--</a>-->
+      <div class="desc">You can either add attributes or add a hint. To add a tag, press attribute.
+      </div>
+    </div>
+
+    <h4>Step 3</h4>
+    <div class="galleryimg" id="Screenshot 3">
+        <!--<a target="_blank" href="1_3.png">-->
+          <img src= "src/assets/gomap/1_3.png" alt="GoMap Interface" width="200" height="auto">
+       <!-- </a>-->
+      <div class="desc">Add the key and its value, then press "save". In this example a lowered kerb was added to a sidewalk.
+      </div>
+    </div>
+
+    <h4>Step 4</h4>
+    <div class="galleryimg" id="Screenshot 4">
+        <!--<a target="_blank" href="1_4.png">-->
+          <img src= "src/assets/gomap/1_4.png" alt="GoMap Interface" width="200" height="auto">
+        <!--</a>-->
+      <div class="desc">To upload the tag, press the cloud symbol in the downright corner.
+      </div>
+    </div>
+    
+    <h4>Step 5</h4>
+    <div class="galleryimg" id="Screenshot 4">
+        <!--<a target="_blank" href="1_5.png">-->
+          <img src= "src/assets/gomap/1_5.png" alt="GoMap Interface" width="200" height="auto">
+        <!--</a>-->
+      <div class="desc">Now add your commit comment and your source. Press upload.
+      </div>
+    </div>
   </div>
+</div>
 </template>
 
 <style scoped>
@@ -59,6 +117,7 @@
   justify-content: space-between;
   max-width: 80%;
   margin: 3rem auto;
+  position: relative;
 }
 
 #side-nav {
@@ -73,5 +132,43 @@
 #content {
   width: 80%;
   margin-left: 15rem;
+}
+
+div.gallery1 {
+  margin-top: 5px;
+  margin-left: 15rem;
+  width: 80%;
+  position: absolute;
+  top: 15rem;
+  bottom: 0;
+}
+
+div.gallery2 {
+  margin-top: 5px;
+  margin-left: 15rem;
+  width: 80%;
+  position: absolute; /*maybe relative? not sure*/
+  top: 20rem; /*might need to adapt this to new gallery*/
+  bottom: 0;
+}
+
+/*div.gallery:hover {
+  border: 1px solid #777;
+}*/
+
+div.galleryimg {
+  width: 80%;
+  margin-top: 10px;
+  height: auto;
+  position: relative;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  margin-left: 15rem;
+  width: 50%;
 }
 </style>

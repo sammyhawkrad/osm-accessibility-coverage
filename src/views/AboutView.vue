@@ -73,9 +73,10 @@
         <h2>List of tags</h2>
           <p>We publish the list of tags for transparency reasons.
             We know that we might have missed some other accessibility tags of the OSM universe.
-            If you feel something is missing, please let us know XXX <br />
+            If you feel something is missing, please let us know via Github<br />
             The PDF will be updated as soon as new tags are integrated into the map.
             Download the <a href='src\assets\taglist310123.pdf' download="taglist">List of tags</a></p>
+            Follow this link to the <a href="https://github.com/sammyhawkrad/osm-accessibility-coverage">GitHub repository.</a>
       </article>
     </section>
   </div>
