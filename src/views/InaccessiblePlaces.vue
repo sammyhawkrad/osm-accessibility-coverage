@@ -2,8 +2,8 @@
 import MapComponent from "../components/MapComponent.vue";
 import { ref, onMounted } from "vue";
 
-const src = ref("//http://umap.openstreetmap.fr/en/map/oac-inaccessible-places_849980");
-const src_dark = ref("http://umap.openstreetmap.fr/en/map/oac-inaccessible-places-dark_853492");
+const src = ref("//umap.openstreetmap.fr/en/map/oac-inaccessible-places_849980");
+const src_dark = ref("//umap.openstreetmap.fr/en/map/oac-inaccessible-places-dark_853492");
 
 const dark = ref(false);
 
