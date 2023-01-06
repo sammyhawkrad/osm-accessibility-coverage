@@ -10,17 +10,22 @@
     <section id="content">
       <article id="OSM">
         <h3>OpenStreetMap</h3>
-          <p>Our data comes from the OSM data base and will be updated on a regular bases/live feed.
-            By contributing to OSM, you automatically contribute to our project as well.
-            There a different ways to contribute to OSM:<br />
-            You can either register directly following this link:
-            <a href="https://wiki.openstreetmap.org/wiki/Getting_Involved">Create OSM account</a><br />
-            You can also check out the OSM wiki for further info:
-            <a href=https://www.openstreetmap.org/user/new>OSM Wiki</a><br />
-            Or the Step to step OSM guide by
-            <a href=https://learnosm.org/en>Learn OSM</a>!</p>
+        <p>
+          Our data comes from the OSM data base and will be updated on a regular
+          bases/live feed. By contributing to OSM, you automatically contribute
+          to our project as well. There a different ways to contribute to
+          OSM:<br />
+          You can either register directly following this link:
+          <a href="https://wiki.openstreetmap.org/wiki/Getting_Involved"
+            >Create OSM account</a
+          ><br />
+          You can also check out the OSM wiki for further info:
+          <a href="https://www.openstreetmap.org/user/new">OSM Wiki</a><br />
+          Or the Step to step OSM guide by
+          <a href="https://learnosm.org/en">Learn OSM</a>!
+        </p>
       </article>
- <!-- <div id="StreetComplete-Container">   
+      <!-- <div id="StreetComplete-Container">   
       <article id="StreetComplete">
         <h2>Contribute with mobile</h2>
         <h3>StreetComplete (Android)</h3>
@@ -33,7 +38,7 @@
             The app automatically uploads the information and tags them accordingly.</p><br />
           </article>
   </div> -->
-  <!--<div id="GoMap">
+      <!--<div id="GoMap">
           <article id="GoMap">
         <h3>GoMap!! (iOS)</h3>
           <p>This app can also be used to tag information with your mobile phone,
@@ -54,61 +59,100 @@
       </article>
   </div> -->
     </section>
-  
-    <div class="gallery1" id="StreetComplete"><h2>StreetComplete Guide</h2></div>
 
-    <div class="gallery2" id="GoMap"><h2>GoMap!! Guide</h2>
-        <p>This app can also be used to tag information with your mobile phone,
-           but unlike streetcomplete, OSM knowledge and a OSM account is needed.
-           After you set up your OSM account, you can follow this step by step guide to set up GoMap!! and start mapping.</p>
-    
-    <h4>Step 1</h4>
-    <div class="galleryimg" id="Screenshot 1">
-      <!--<a target="_blank" href="1_1.png">-->
-          <img src="src/assets/gomap/1_1.png" alt="GoMap Interface" width="200" height="auto">
-      <!--</a>-->
-      <div class="desc">The GoMap!! interface is a map with a cross in its center.
-    You can simply add information to where the centered cross is by pressing the plus button.
-      </div>
+    <div class="gallery1" id="StreetComplete">
+      <h2>StreetComplete Guide</h2>
     </div>
 
-    <h4>Step 2</h4>
-    <div class="galleryimg" id="Screenshot 2">
+    <div class="gallery2" id="GoMap">
+      <h2>GoMap!! Guide</h2>
+      <p>
+        This app can also be used to tag information with your mobile phone, but
+        unlike streetcomplete, OSM knowledge and a OSM account is needed. After
+        you set up your OSM account, you can follow this step by step guide to
+        set up GoMap!! and start mapping.
+      </p>
+
+      <h4>Step 1</h4>
+      <div class="galleryimg" id="Screenshot 1">
+        <!--<a target="_blank" href="1_1.png">-->
+        <img
+          src="/src/assets/gomap/1_1.png"
+          alt="GoMap Interface"
+          width="200"
+          height="auto"
+        />
+        <!--</a>-->
+        <div class="desc">
+          The GoMap!! interface is a map with a cross in its center. You can
+          simply add information to where the centered cross is by pressing the
+          plus button.
+        </div>
+      </div>
+
+      <h4>Step 2</h4>
+      <div class="galleryimg" id="Screenshot 2">
         <!--<a target="_blank" href="1_2.png">-->
-          <img src="src/assets/gomap/1_2.png" alt="GoMap Interface" width="200" height="auto">
+        <img
+          src="/src/assets/gomap/1_2.png"
+          alt="GoMap Interface"
+          width="200"
+          height="auto"
+        />
         <!--</a>-->
-      <div class="desc">You can either add attributes or add a hint. To add a tag, press attribute.
+        <div class="desc">
+          You can either add attributes or add a hint. To add a tag, press
+          attribute.
+        </div>
       </div>
-    </div>
 
-    <h4>Step 3</h4>
-    <div class="galleryimg" id="Screenshot 3">
+      <h4>Step 3</h4>
+      <div class="galleryimg" id="Screenshot 3">
         <!--<a target="_blank" href="1_3.png">-->
-          <img src= "src/assets/gomap/1_3.png" alt="GoMap Interface" width="200" height="auto">
-       <!-- </a>-->
-      <div class="desc">Add the key and its value, then press "save". In this example a lowered kerb was added to a sidewalk.
+        <img
+          src="/src/assets/gomap/1_3.png"
+          alt="GoMap Interface"
+          width="200"
+          height="auto"
+        />
+        <!-- </a>-->
+        <div class="desc">
+          Add the key and its value, then press "save". In this example a
+          lowered kerb was added to a sidewalk.
+        </div>
       </div>
-    </div>
 
-    <h4>Step 4</h4>
-    <div class="galleryimg" id="Screenshot 4">
+      <h4>Step 4</h4>
+      <div class="galleryimg" id="Screenshot 4">
         <!--<a target="_blank" href="1_4.png">-->
-          <img src= "src/assets/gomap/1_4.png" alt="GoMap Interface" width="200" height="auto">
+        <img
+          src="/src/assets/gomap/1_4.png"
+          alt="GoMap Interface"
+          width="200"
+          height="auto"
+        />
         <!--</a>-->
-      <div class="desc">To upload the tag, press the cloud symbol in the downright corner.
+        <div class="desc">
+          To upload the tag, press the cloud symbol in the downright corner.
+        </div>
       </div>
-    </div>
-    
-    <h4>Step 5</h4>
-    <div class="galleryimg" id="Screenshot 4">
+
+      <h4>Step 5</h4>
+      <div class="galleryimg" id="Screenshot 4">
         <!--<a target="_blank" href="1_5.png">-->
-          <img src= "src/assets/gomap/1_5.png" alt="GoMap Interface" width="200" height="auto">
+        <img
+          src="/src/assets/gomap/1_5.png"
+          alt="GoMap Interface"
+          width="200"
+          height="auto"
+        />
         <!--</a>-->
-      <div class="desc">Now add your commit comment and your source. Press upload.
+        <div class="desc">
+          Now add your commit comment and your source. Press upload.
+        </div>
       </div>
     </div>
   </div>
-</div>
 </template>
 
 <style scoped>
