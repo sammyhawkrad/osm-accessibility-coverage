@@ -67,7 +67,7 @@
       <!--<a target="_blank" href="1_1.png">-->
           <img src="src/assets/gomap/1_1.png" alt="GoMap Interface" width="200" height="auto">
       <!--</a>-->
-      <div class="desc">The GoMap!! interface is a map with a cross in its center.
+      <div class="desc">The GoMap!! interface is a map with a cross in its center
     You can simply add information to where the centered cross is by pressing the plus button.
       </div>
     </div>
