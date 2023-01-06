@@ -3,7 +3,7 @@ import MapComponent from "../components/MapComponent.vue";
 import { ref, onMounted } from "vue";
 
 const src = ref("http://u.osmfr.org/m/849980/");
-const src_dark = ref("");
+const src_dark = ref("http://u.osmfr.org/m/853492/");
 
 const dark = ref(false);
 
