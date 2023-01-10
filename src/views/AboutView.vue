@@ -100,8 +100,8 @@
 
 #navli {
   list-style-type: none;
-  margin: 1.2rem;
-  padding: 0;
+  margin: 1rem;
+  padding-bottom: 5px;
   border-bottom: 1px solid lightgray;
 }
 

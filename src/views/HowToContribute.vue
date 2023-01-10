@@ -8,7 +8,8 @@
       </nav>
     </section>
     <section id="content">
-      <article  id="OSM"><h2>OpenStreetMap</h2>
+      <article id="OSM">
+        <h2>OpenStreetMap</h2>
         <h3>OpenStreetMap</h3>
         <p>
           Our data comes from the OSM data base and will be updated on a regular
@@ -88,13 +89,13 @@
 
     <div class="galleryimg" id="Streetcomplete"><h2>StreetComplete Guide</h2>
         <a target="_blank" href="guideimageSC.png">
-          <img src= "src/assets/gomap/guideimageSC.png" alt="Images to show how to use Streetcomplete" width="600" height="auto">
+          <img src= "/src/assets/gomap/guideimageSC.png" alt="Images to show how to use Streetcomplete" width="600" height="auto">
         </a>
     </div>
 
     <div class="galleryimg" id="GoMap"><h2>GoMap!! Guide</h2>
         <a target="_blank" href="guideimageblack.png">
-          <img src= "src/assets/gomap/guideimageblack.png" alt="Images to show how to use GoMap!!" width="600" height="auto">
+          <img src= "/src/assets/gomap/guideimageblack.png" alt="Images to show how to use GoMap!!" width="600" height="auto">
         </a>
     </div>
   </section>
@@ -121,9 +122,15 @@
 
 #navli {
   list-style-type: none;
-  margin: 1.2rem;
-  padding: 0;
+  margin: 1rem;
+  padding: 5px;
   border-bottom: 1px solid lightgray;
+}
+
+@media (prefers-color-scheme: dark) {
+  #navli {
+    border-bottom: 1px solid gray;
+  }
 }
 
 #content {
