@@ -2,10 +2,10 @@
   <div id="about-container">
     <section id="side-nav">
       <nav>
-        <li id="navli"><a href="#background">Background</a></li>
-        <li id="navli"><a href="#approach">Approach</a></li>
-        <li id="navli"><a href="#themap">The Map</a></li>
-        <li id="navli"><a href="#taglist">List of tags</a></li>
+        <a href="#background"><li id="navli">Background</li></a>
+        <a href="#approach"><li id="navli">Approach</li></a>
+        <a href="#themap"><li id="navli">The Map</li></a>
+        <a href="#taglist"><li id="navli">List of tags</li></a>
       </nav>
     </section>
     <section id="content">
@@ -100,8 +100,9 @@
 
 #navli {
   list-style-type: none;
-  margin: 0;
+  margin: 1.2rem;
   padding: 0;
+  border-bottom: 1px solid lightgray;
 }
 
 #content {
@@ -120,5 +121,4 @@ h1{
 h2{
 
 }
-
 </style>

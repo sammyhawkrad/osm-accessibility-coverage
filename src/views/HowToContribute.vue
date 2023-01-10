@@ -2,9 +2,9 @@
   <div id="about-container">
     <section id="side-nav">
       <nav>
-        <li><a href="#OSM">OpenStreetMap</a></li>
-        <li><a href="#StreetComplete">StreetComplete</a></li>
-        <li><a href="#GoMap">GoMap!!</a></li>
+        <a href="#OSM"><li id="navli">OpenStreetMap</li></a>
+        <a href="#StreetComplete"><li id="navli">StreetComplete</li></a>
+        <a href="#GoMap"><li id="navli">GoMap!!</li></a>
       </nav>
     </section>
     <section id="content">
@@ -171,6 +171,13 @@
   position: fixed;
   top: 8rem;
   left: 1rem;
+}
+
+#navli {
+  list-style-type: none;
+  margin: 1.2rem;
+  padding: 0;
+  border-bottom: 1px solid lightgray;
 }
 
 #content {
