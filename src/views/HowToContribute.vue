@@ -10,17 +10,22 @@
     <section id="content">
       <article  id="OSM"><h2>OpenStreetMap</h2>
         <h3>OpenStreetMap</h3>
-          <p>Our data comes from the OSM data base and will be updated on a regular bases/live feed.
-            By contributing to OSM, you automatically contribute to our project as well.
-            There a different ways to contribute to OSM:<br />
-            You can either register directly following this link:
-            <a href="https://wiki.openstreetmap.org/wiki/Getting_Involved">Create OSM account</a><br />
-            You can also check out the OSM wiki for further info:
-            <a href=https://www.openstreetmap.org/user/new>OSM Wiki</a><br />
-            Or the Step to step OSM guide by
-            <a href=https://learnosm.org/en>Learn OSM</a>!</p>
+        <p>
+          Our data comes from the OSM data base and will be updated on a regular
+          bases/live feed. By contributing to OSM, you automatically contribute
+          to our project as well. There a different ways to contribute to
+          OSM:<br />
+          You can either register directly following this link:
+          <a href="https://wiki.openstreetmap.org/wiki/Getting_Involved"
+            >Create OSM account</a
+          ><br />
+          You can also check out the OSM wiki for further info:
+          <a href="https://www.openstreetmap.org/user/new">OSM Wiki</a><br />
+          Or the Step to step OSM guide by
+          <a href="https://learnosm.org/en">Learn OSM</a>!
+        </p>
       </article>
- <!-- <div id="StreetComplete-Container">   
+      <!-- <div id="StreetComplete-Container">   
       <article id="StreetComplete">
         <h2>Contribute with mobile</h2>
         <h3>StreetComplete (Android)</h3>
@@ -33,7 +38,7 @@
             The app automatically uploads the information and tags them accordingly.</p><br />
           </article>
   </div> -->
-  <!--<div id="GoMap">
+      <!--<div id="GoMap">
           <article id="GoMap">
         <h3>GoMap!! (iOS)</h3>
           <p>This app can also be used to tag information with your mobile phone,

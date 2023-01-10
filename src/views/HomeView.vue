@@ -2,8 +2,8 @@
 import MapComponent from "../components/MapComponent.vue";
 import { ref, onMounted } from "vue";
 
-const src = ref("http://u.osmfr.org/m/843208/");
-const src_dark = ref("http://u.osmfr.org/m/850025/");
+const src = ref("//umap.openstreetmap.fr/en/map/oac-home_843208");
+const src_dark = ref("//umap.openstreetmap.fr/en/map/oac-home-dark_850025");
 const dark = ref(false);
 
 onMounted(() => {
