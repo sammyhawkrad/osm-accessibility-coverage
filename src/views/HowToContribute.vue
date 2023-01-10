@@ -8,7 +8,7 @@
       </nav>
     </section>
     <section id="content">
-      <article id="OSM">
+      <article  id="OSM"><h2>OpenStreetMap</h2>
         <h3>OpenStreetMap</h3>
         <p>
           Our data comes from the OSM data base and will be updated on a regular
@@ -57,101 +57,47 @@
             <img src="src/assets/gomap/1_5.PNG" alt="Screenshot 5" style="width:200px; height:300px"></p>
             <p>You just added information to OpenStreetMap!</p><br />
       </article>
-  </div> -->
-    </section>
+  </div>-->
+  
+    <!--<div class="gallery1" id="StreetComplete"><h2>StreetComplete Guide</h2></div>
+        <p>The streetcomplete app is the most convienient way of mapping data (at least we think so),
+            since there is no specific OSM knowledge and no OSM registration needed.</p>-->
+        
+    <!--<div class="zoom">
+      <a target="_blank" href="1_1.png">
+          <img src="src/assets/gomap/guideimageSC.png" alt="GoMap Interface" width="200" height="auto">
+      </a>
+      <div class="desc1">The GoMap!! interface is a map with a cross in its center.
+    You can simply add information to where the centered cross is by pressing the plus button.
+      </div>
+    </div>-->
 
-    <div class="gallery1" id="StreetComplete">
-      <h2>StreetComplete Guide</h2>
+    <!--<div class="gallery2" id="GoMap"><h2>GoMap!! Guide</h2>
+        <p>This app can also be used to tag information with your mobile phone,
+           but unlike streetcomplete, OSM knowledge and a OSM account is needed.
+           After you set up your OSM account, you can follow this step by step guide to set up GoMap!! and start mapping.</p>-->
+    
+    <!--<div class="zoom">
+      <a target="_blank" href="1_1.png">
+          <img src="src/assets/gomap/guideimageblack.png" alt="GoMap Interface" width="200" height="auto">
+      </a>
+      <div class="desc1">The GoMap!! interface is a map with a cross in its center.
+    You can simply add information to where the centered cross is by pressing the plus button.
+      </div>
+    </div>-->
+
+    <div class="galleryimg" id="Streetcomplete"><h2>StreetComplete Guide</h2>
+        <a target="_blank" href="guideimageSC.png">
+          <img src= "src/assets/gomap/guideimageSC.png" alt="Images to show how to use Streetcomplete" width="600" height="auto">
+        </a>
     </div>
 
-    <div class="gallery2" id="GoMap">
-      <h2>GoMap!! Guide</h2>
-      <p>
-        This app can also be used to tag information with your mobile phone, but
-        unlike streetcomplete, OSM knowledge and a OSM account is needed. After
-        you set up your OSM account, you can follow this step by step guide to
-        set up GoMap!! and start mapping.
-      </p>
-
-      <h4>Step 1</h4>
-      <div class="galleryimg" id="Screenshot 1">
-        <!--<a target="_blank" href="1_1.png">-->
-        <img
-          src="/src/assets/gomap/1_1.png"
-          alt="GoMap Interface"
-          width="200"
-          height="auto"
-        />
-        <!--</a>-->
-        <div class="desc">
-          The GoMap!! interface is a map with a cross in its center. You can
-          simply add information to where the centered cross is by pressing the
-          plus button.
-        </div>
-      </div>
-
-      <h4>Step 2</h4>
-      <div class="galleryimg" id="Screenshot 2">
-        <!--<a target="_blank" href="1_2.png">-->
-        <img
-          src="/src/assets/gomap/1_2.png"
-          alt="GoMap Interface"
-          width="200"
-          height="auto"
-        />
-        <!--</a>-->
-        <div class="desc">
-          You can either add attributes or add a hint. To add a tag, press
-          attribute.
-        </div>
-      </div>
-
-      <h4>Step 3</h4>
-      <div class="galleryimg" id="Screenshot 3">
-        <!--<a target="_blank" href="1_3.png">-->
-        <img
-          src="/src/assets/gomap/1_3.png"
-          alt="GoMap Interface"
-          width="200"
-          height="auto"
-        />
-        <!-- </a>-->
-        <div class="desc">
-          Add the key and its value, then press "save". In this example a
-          lowered kerb was added to a sidewalk.
-        </div>
-      </div>
-
-      <h4>Step 4</h4>
-      <div class="galleryimg" id="Screenshot 4">
-        <!--<a target="_blank" href="1_4.png">-->
-        <img
-          src="/src/assets/gomap/1_4.png"
-          alt="GoMap Interface"
-          width="200"
-          height="auto"
-        />
-        <!--</a>-->
-        <div class="desc">
-          To upload the tag, press the cloud symbol in the downright corner.
-        </div>
-      </div>
-
-      <h4>Step 5</h4>
-      <div class="galleryimg" id="Screenshot 4">
-        <!--<a target="_blank" href="1_5.png">-->
-        <img
-          src="/src/assets/gomap/1_5.png"
-          alt="GoMap Interface"
-          width="200"
-          height="auto"
-        />
-        <!--</a>-->
-        <div class="desc">
-          Now add your commit comment and your source. Press upload.
-        </div>
-      </div>
+    <div class="galleryimg" id="GoMap"><h2>GoMap!! Guide</h2>
+        <a target="_blank" href="guideimageblack.png">
+          <img src= "src/assets/gomap/guideimageblack.png" alt="Images to show how to use GoMap!!" width="600" height="auto">
+        </a>
     </div>
+  </section>
   </div>
 </template>
 
@@ -198,18 +144,32 @@ div.gallery2 {
   margin-top: 5px;
   margin-left: 15rem;
   width: 80%;
-  position: absolute; /*maybe relative? not sure*/
+  position: absolute;
   top: 20rem; /*might need to adapt this to new gallery*/
   bottom: 0;
 }
+div.zoom img{
+  padding: 50px;
+  position: relative;
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
 
-/*div.gallery:hover {
+/*div.zoom:hover {
+  transform: scale(1.5); (150% zoom - Note: if the zoom is too large, it will go outside of the viewport)
+}*/
+
+/*div.galleryimg:hover {
   border: 1px solid #777;
 }*/
 
 div.galleryimg {
-  width: 80%;
+  padding: 50px;
   margin-top: 10px;
+  margin-left: 5rem;
+  width: 80%;
   height: auto;
   position: relative;
 }
