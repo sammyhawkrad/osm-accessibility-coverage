@@ -7,6 +7,7 @@
         <a href="#GoMap"><li id="navli">GoMap!!</li></a>
       </nav>
     </section>
+    
     <section id="content">
       <article id="OSM">
         <h2>OpenStreetMap</h2>
@@ -24,29 +25,52 @@
           <a href="https://www.openstreetmap.org/user/new">OSM Wiki</a><br />
           Or the Step to step OSM guide by
           <a href="https://learnosm.org/en">Learn OSM</a>!
-        </p>
+        </p> <br />
       </article>
+    
+      <article>
+      <h2>StreetComplete Guide</h2>
+      <div class="galleryimg" id="StreetComplete">
+            <img src= "/src/assets/gomap/guideimageSC123.png" alt="Images to show how to use Streetcomplete" width="600" height="auto">
+        <div class="desc">
+          Step 1: The GoMap!! interface is a map with a cross in its center. 
+          You can add information to the places where the cross is by pressing the + button. <br />
+          Step 2: You can either add attributes or add a hint. To add a tag, press attribute. <br />
+          Step 3: Add a key and its value, press save. In this example, the surface gravel was tagged. <br />
+        </div>
+      </div>
+     
+      <div class="galleryimg2">
+            <img src= "/src/assets/gomap/guideimageSC456X.png" alt="Images to show how to use Streetcomplete" width="600" height="auto">
+          <div class="desc">
+          Step 4: The GoMap!! interface is a map with a cross in its center. 
+          You can add information to the places where the cross is by pressing the + button. <br />
+          Step 5: You can either add attributes or add a hint. To add a tag, press attribute. <br />
+          Step 6: Add a key and its value, press save. In this example, the surface gravel was tagged. <br />
+        </div>
+      </div>
+    </article>
+   
     <article>
-      <div class="galleryimg" id="Streetcomplete"><h2>StreetComplete Guide</h2>
-          <img src= "/src/assets/gomap/guideimageSC.png" alt="Images to show how to use Streetcomplete" width="600" height="auto">
-      </div>
-
-      <div class="galleryimg" id="GoMap"><h2>GoMap!! Guide</h2>
-          <img src= "/src/assets/gomap/guideimageblack.png" alt="Images to show how to use GoMap!!" width="600" height="auto">
-          
-        <div class="desc">Step 1: The GoMap!! interface is a map with a cross in its center. 
-        You can add information to the places where the cross is by pressing the + button. <br />
-        Step 2: You can either add attributes or add a hint. To add a tag, press attribute. <br />
-        Step 3: Add a key and its value, press save. In this example, the surface gravel was tagged. <br />
+      <h2>GoMap!! Guide</h2>
+      <div class="galleryimg" id="GoMap">
+          <img src= "/src/assets/gomap/guideimageStep123.png" alt="Images to show how to use GoMap!!" width="600" height="auto">
+        <div class="desc">
+          Step 1: The GoMap!! interface is a map with a cross in its center. 
+          You can add information to the places where the cross is by pressing the + button. <br />
+          Step 2: You can either add attributes or add a hint. To add a tag, press attribute. <br />
+          Step 3: Add a key and its value, press save. In this example, the surface gravel was tagged. <br />
         </div>
       </div>
-      <div class="galleryimg" id="GoMap"><h2>GoMap!! Guide</h2>
-          <img src= "/src/assets/gomap/guideimageblack.png" alt="Images to show how to use GoMap!!" width="600" height="auto">
-          
-        <div class="desc">Step 4: The GoMap!! interface is a map with a cross in its center. 
+      
+      <div class="galleryimg2">
+          <img src= "/src/assets/gomap/guideimageStep45.png" alt="Images to show how to use GoMap!!" width="600" height="auto">
+        <div class="desc">
+        Step 4: The GoMap!! interface is a map with a cross in its center. 
         You can add information to the places where the cross is by pressing the + button. <br />
-        Step 4: You can either add attributes or add a hint. To add a tag, press attribute. <br />
+        Step 5: You can either add attributes or add a hint. To add a tag, press attribute. <br />
         </div>
+      
       </div>
     </article>
   </section>
@@ -90,18 +114,24 @@
 }
 
 div.galleryimg {
-  padding: 50px;
+  padding: 25px;
   margin-top: 10px;
-  margin-left: 5rem;
+  width: 80%;
+  height: auto;
+  position: relative;
+}
+div.galleryimg2 {
+  padding: 25px;
+  margin-top: 10px;
   width: 80%;
   height: auto;
   position: relative;
 }
 
 div.desc {
-  padding: 15px;
+  padding: 5px;
   text-align: left;
   position: relative;
-  top: 0;
+  width: 100%;
 }
 </style>
