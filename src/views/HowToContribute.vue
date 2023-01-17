@@ -66,9 +66,8 @@
       <div class="galleryimg2">
           <img src= "/src/assets/gomap/guideimageStep45.png" alt="Images to show how to use GoMap!!" width="600" height="auto">
         <div class="desc">
-        Step 4: The GoMap!! interface is a map with a cross in its center. 
-        You can add information to the places where the cross is by pressing the + button. <br />
-        Step 5: You can either add attributes or add a hint. To add a tag, press attribute. <br />
+        Step 4: To upload the tag press the cloud symbol in the downright corner. <br />
+        Step 5: Now add your comment and source. Press upload. <br />
         </div>
       
       </div>
