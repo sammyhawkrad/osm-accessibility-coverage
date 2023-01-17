@@ -110,15 +110,4 @@
   margin-left: 15rem;
 }
 
-p{
-
-}
-
-h1{
-
-}
-
-h2{
-
-}
 </style>
