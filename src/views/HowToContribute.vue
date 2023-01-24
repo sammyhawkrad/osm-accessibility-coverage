@@ -136,20 +136,4 @@ div.desc {
   width: 100%;
 }
 
-h2 {
-  font: 2em Georgia,serif;
-  letter-spacing: 1px;
-  font-weight: lighter;
-  margin-bottom: 5px;
-  text-align: left;
-  color: #9d9d99;
-} 
-
-h3 {
-  font: 1.2em Georgia,serif;
-  letter-spacing: 2px;
-  font-weight: lighter;
-  text-align: left;
-  color: #9d9d99;
-}
 </style>

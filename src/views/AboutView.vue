@@ -2,10 +2,11 @@
   <div id="about-container">
     <section id="side-nav">
       <nav>
-        <a href="#background"><li id="navli">Background</li></a>
+        <a href="#background"><li id="navli">Why Map?</li></a>
         <a href="#approach"><li id="navli">Approach</li></a>
-        <a href="#themap"><li id="navli">The Map</li></a>
-        <a href="#taglist"><li id="navli">List of tags</li></a>
+        <a href="#workflow"><li id="navli">Workflow</li></a>
+        <a href="#themap"><li id="navli">How to use the map</li></a>
+        <a href="#databehindmap"><li id="navli">The data behind the map</li></a>
       </nav>
     </section>
     <section id="content">
@@ -44,7 +45,7 @@
           </ul>
       </article>
 
-      <article id="approach">
+      <article id="workflow">
         <h2>Workflow</h2>
           <p>
             <img src= "/src/assets/gomap/workflow.png" alt="Image that shows the workflow" width="600" height="auto">
@@ -83,7 +84,7 @@
             The information is categorized by impairments, e.g., visual, deaf or mobility impairment.</p>
       </article>
       
-      <article id="taglist">
+      <article id="databehindmap">
         <h2>The data behind the map</h2>
           <p>
             The tags of our data collection is based on the following criteria to assure quality and relevance of our data:</p>
@@ -155,23 +156,6 @@ ul {
   margin-top: 5px;
   text-align: justify;
   list-style-type: circle;
-}
-
-h2 {
-  font: 2em Georgia,serif;
-  letter-spacing: 1px;
-  font-weight: lighter;
-  margin-bottom: 5px;
-  text-align: left;
-  color: #9d9d99;
-} 
-
-h3 {
-  font: 1.2em Georgia,serif;
-  letter-spacing: 2px;
-  font-weight: lighter;
-  text-align: left;
-  color: #9d9d99;
 }
 
 p{
