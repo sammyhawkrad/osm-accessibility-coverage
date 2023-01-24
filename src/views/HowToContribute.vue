@@ -11,7 +11,6 @@
     <section id="content">
       <article id="OSM">
         <h2>OpenStreetMap</h2>
-        <h3>OpenStreetMap</h3>
         <p>
           Our data comes from the OSM data base and will be updated on a regular
           bases/live feed. By contributing to OSM, you automatically contribute
@@ -130,11 +129,27 @@ div.galleryimg2 {
   height: auto;
   position: relative;
 }
-
 div.desc {
   padding: 5px;
   text-align: left;
   position: relative;
   width: 100%;
+}
+
+h2 {
+  font: 2em Georgia,serif;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #9d9d99;
+} 
+
+h3 {
+  font: 1.2em Georgia,serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  text-align: left;
+  color: #9d9d99;
 }
 </style>
