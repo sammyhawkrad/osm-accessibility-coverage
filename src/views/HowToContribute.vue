@@ -25,11 +25,12 @@
           <a href="https://www.openstreetmap.org/user/new">OSM Wiki</a><br />
           Or the Step to step OSM guide by
           <a href="https://learnosm.org/en">Learn OSM</a>!
-        </p> <br />
+        </p><br />
       </article>
     
       <article>
       <h2>StreetComplete Guide</h2>
+      <p>Follow this guide to start mapping with StreetComplete on your Android phone.</p>
       <div class="galleryimg" id="StreetComplete">
             <img src= "/src/assets/gomap/guideimageSC123.png" alt="Images to show how to use Streetcomplete" width="600" height="auto">
         <div class="desc">
@@ -53,6 +54,7 @@
    
     <article>
       <h2>GoMap!! Guide</h2>
+      <p>Follow this guide to start mapping with GoMap!! on your Iphone.</p>
       <div class="galleryimg" id="GoMap">
           <img src= "/src/assets/gomap/guideimageStep123.png" alt="Images to show how to use GoMap!!" width="600" height="auto">
         <div class="desc">
@@ -111,7 +113,9 @@
   width: 80%;
   margin-left: 15rem;
 }
-
+article {
+  border-bottom: 1px solid lightgray;
+}
 div.galleryimg {
   padding: 25px;
   margin-top: 10px;
