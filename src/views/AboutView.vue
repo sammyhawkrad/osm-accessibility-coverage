@@ -168,10 +168,7 @@
         </div>
         <div class="profile">
           <figure>
-            <img
-              src="/src/assets/sam.webp"
-              alt="Picture of Samuel Darkwah Manu"
-            />
+            <img src="" alt="Picture of Samuel Darkwah Manu" />
             <figcaption>Samuel Darkwah Manu</figcaption>
           </figure>
         </div>
