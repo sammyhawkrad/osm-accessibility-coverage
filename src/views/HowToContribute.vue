@@ -11,20 +11,51 @@
   <div id="about-container">
     <section id="content">
       <article id="OSM">
-        <h2>OpenStreetMap</h2>
+        <h2>How to Help</h2>
         <p>
-          Our data comes from the OSM data base and will be updated on a regular
-          bases/live feed. By contributing to OSM, you automatically contribute
-          to our project as well. There a different ways to contribute to
-          OSM:<br />
-          You can either register directly following this link:
-          <a href="https://wiki.openstreetmap.org/wiki/Getting_Involved"
-            >Create OSM account</a
+          The aim of our project is to increase data about the accessibility of
+          places to people with disabilities. In as much as we are highlighting
+          areas which have/lack this data, we also want to create an avenue to
+          encourage people to contribute to the creation of the data.
+          <br />
+          <br />
+          <a
+            href="https://www.openstreetmap.org/about"
+            target="_blank"
+            rel="noopener noreferrer"
+            >OpenStreetMap</a
+          >
+          (OSM), where the data we are displaying comes from, is a free editable
+          map of the world. Many web and mobile maps/applications use this data
+          source to provide navigation information to their users. A significant
+          amount of these users are people with disabilities.
+          <br />
+          <br />
+          A person in a wheelchair may want to know if they can enter a
+          building, a train station, or a restaurant with their wheelchair. Is
+          there tactile paving at a place which may be useful to a blind person?
+          Is there floor vibration at this stop which may help a person with
+          hearing impairment. These and many more are questions people with
+          disabilities ask on daily basis as they navigate our cities and towns.
+          By adding these kind of information to OSM, you help make life easy
+          for everyone and most expecially people with disabilities.
+          <br />
+          <br />
+          There are so many different ways to contribute to OpenStreetMap but we
+          are going to demonstrate how to do that on the most popular smart
+          phone operating systems that is, Android and iOS. So if you are new to
+          OpenStreetMap you can follow the guides here and start contributing
+          right away.
+          <br />
+          <br />
+          Experienced mappers may check the Useful Resources section to learn
+          how to map for people with disabilities.
+          <br />
+          <br />
+          You must first create an account on OpenStreetMap:
+          <a href="https://www.openstreetmap.org/user/new" target="_blank"
+            >Register here!</a
           ><br />
-          You can also check out the OSM wiki for further info:
-          <a href="https://www.openstreetmap.org/user/new">OSM Wiki</a><br />
-          Or the Step to step OSM guide by
-          <a href="https://learnosm.org/en">Learn OSM</a>!
         </p>
         <br />
       </article>
@@ -32,6 +63,20 @@
       <article>
         <h2>StreetComplete Guide</h2>
         <p>
+          The
+          <a
+            href="https://streetcomplete.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >StreetComplete</a
+          >
+          app finds missing map data in your vicinity and displays it on a map
+          as quests. You solve each quest by visiting the location on-site and
+          answering a simple question to update the map. The info you enter is
+          directly added to OpenStreetMap in your name, without the need to use
+          another editor.
+          <br />
+          <br />
           Follow this guide to start mapping with StreetComplete on your Android
           phone.
         </p>
@@ -43,13 +88,19 @@
             height="auto"
           />
           <div class="desc">
-            Step 1: The GoMap!! interface is a map with a cross in its center.
-            You can add information to the places where the cross is by pressing
-            the + button. <br />
-            Step 2: You can either add attributes or add a hint. To add a tag,
-            press attribute. <br />
-            Step 3: Add a key and its value, press save. In this example, the
-            surface gravel was tagged. <br />
+            <span>Step 1</span> After going through the onboarding screens,
+            StreetComplete shows you a map interface with several buttons on the
+            screen. Click the hamburger button (☰) at the top right corner of
+            your screen and select 'My Profile 👤' from the menu that pops up.
+            <br />
+            <br />
+            <span>Step 2</span> Use the 'Login' button to sign in with your OSM
+            account.
+            <br />
+            <br />
+            <span>Step 3</span> After signing in, go back to the main menu and
+            open 'Settings ⚙️'. On the settings page, under 'Quests & Overlays'
+            tap on on 'Manage presets'.
           </div>
         </div>
 
@@ -61,13 +112,35 @@
             height="auto"
           />
           <div class="desc">
-            Step 4: The GoMap!! interface is a map with a cross in its center.
-            You can add information to the places where the cross is by pressing
-            the + button. <br />
-            Step 5: You can either add attributes or add a hint. To add a tag,
-            press attribute. <br />
-            Step 6: Add a key and its value, press save. In this example, the
-            surface gravel was tagged. <br />
+            <blockquote>
+              <em>
+                There are many quests available on StreetComplete. A number of
+                them are pre-selected in a default preset. You can define your
+                own preset and select the kind of quests you want to focus on.
+                Steps 4 & 5 guide you own how to create your own preset. You can
+                skip to Step 6 to use a preset for mobility we have already
+                defined.</em
+              >
+            </blockquote>
+            <br />
+            <span>Step 4</span> On the 'Manage presets' screen you can add a new
+            preset by tapping on the '+'' button at the bottom right corner.
+            Enter the name of your preset and click 'OK'. You can activate your
+            preset by tapping the radio button next to it.
+            <br />
+            <br />
+            <span>Step 5</span> Go back to the 'Settings' screen and tap on
+            'Quest selection and priority'. Here you can select the quests you
+            want to focus on and go back to the map screen to start
+            contributing.
+            <br />
+            You can optionally click on the three dots at the top right corner
+            of your screen to deselect all quests before making your own
+            selection
+            <br />
+            <br />
+            <span>Step 6</span> Scan the QR Code in the image above to load a
+            mobility preset to startmapping for people with disabilities <br />
           </div>
         </div>
       </article>
@@ -83,17 +156,19 @@
             height="auto"
           />
           <div class="desc">
-            Step 1: The GoMap!! interface is a map with a cross in its center.
-            You can add information to the places where the cross is by pressing
-            the + button. <br />
-            Step 2: You can either add attributes or add a hint. To add a tag,
-            press attribute. <br />
-            Step 3: Add a key and its value, press save. In this example, the
-            surface gravel was tagged. <br />
+            <span>Step 1</span> The GoMap!! interface is a map with a cross in
+            its center. You can add information to the places where the cross is
+            by pressing the + button. <br />
+            <br />
+            <span>Step 2</span> You can either add attributes or add a hint. To
+            add a tag, press attribute. <br />
+            <br />
+            <span>Step 3</span> Add a key and its value, press save. In this
+            example, the surface gravel was tagged. <br />
           </div>
         </div>
 
-        <div class="galleryimg2">
+        <div class="galleryimg">
           <img
             src="/src/assets/gomap/guideimageStep45.png"
             alt="Images to show how to use GoMap!!"
@@ -101,9 +176,11 @@
             height="auto"
           />
           <div class="desc">
-            Step 4: To upload the tag press the cloud symbol in the downright
-            corner. <br />
-            Step 5: Now add your comment and source. Press upload. <br />
+            <span>Step 4</span> To upload the tag press the cloud symbol in the
+            downright corner. <br />
+            <br />
+            <span>Step 5</span> Now add your comment and source. Press upload.
+            <br />
           </div>
         </div>
       </article>
@@ -112,6 +189,69 @@
     <section id="sidebar">
       <aside>
         <h2>Useful Resources</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.openstreetmap.org/about"
+              target="_blank"
+              rel="noopener noreferrer"
+              >What is OpenStreetMap?</a
+            >
+          </li>
+          <li>
+            <a href="https://learnosm.org/en"
+              >Learn OpenStreetMap Step by Step</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://wiki.openstreetmap.org/wiki/How_to_map_for_the_needs_of_people_with_disabilities"
+              target="_blank"
+              rel="noopener noreferrer"
+              >How to map for the needs of people with disabilities</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://wiki.openstreetmap.org/wiki/OSM_for_the_blind"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Mapping for the blind</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://wiki.openstreetmap.org/wiki/Key:wheelchair"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Mapping for people in wheelchair</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://learnosm.org/en/mobile-mapping/streetcomplete/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >StreetComplete Guide on learnOSM</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://learnosm.org/en/mobile-mapping/gomap/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Go Map!! Guide on learnOSM</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://wheelmap.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Wheelmap</a
+            >
+          </li>
+        </ul>
       </aside>
     </section>
   </div>
@@ -127,6 +267,11 @@
 @media (prefers-color-scheme: dark) {
   #header-img img {
     filter: grayscale(100%);
+  }
+
+  aside {
+    background-color: #e2e2e2;
+    color: black;
   }
 }
 
@@ -149,7 +294,11 @@
 #sidebar {
   list-style-type: none;
   width: 30%;
-  padding: 0 1rem;
+}
+
+aside {
+  background-color: #e8e2dc;
+  padding: 1rem;
 }
 
 #content {
@@ -158,27 +307,29 @@
   padding: 0 5rem;
 }
 
+h2 {
+  border-bottom: 2px solid lightgreen;
+  margin-bottom: 1.5rem;
+}
+
+span {
+  font-weight: bold;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  padding: 0.15rem;
+}
+
 article {
-  border-bottom: 1px solid lightgray;
+  margin-bottom: 3rem;
 }
-div.galleryimg {
+.galleryimg {
   padding: 25px;
-  margin-top: 10px;
-  width: 80%;
-  height: auto;
   position: relative;
 }
-div.galleryimg2 {
-  padding: 25px;
-  margin-top: 10px;
-  width: 80%;
-  height: auto;
-  position: relative;
-}
-div.desc {
+
+.desc {
   padding: 5px;
   text-align: left;
   position: relative;
-  width: 100%;
 }
 </style>

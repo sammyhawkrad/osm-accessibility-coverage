@@ -85,15 +85,16 @@
           The map is by default a standard web map that is centered to Northern
           France. You can either use it in light or dark mode. When you zoom
           into an area of your choice, one layer will be displayed by default.
-          The layer will be displayed from a certain zoom level on. The defined
-          zoom level is a compromise between overview of the data and loading
-          capabilities with an average internet connection. The color scheme you
-          see is the default setting of Umap: A place with little available data
-          is displayed as blue while changing to green, yellow and eventually
-          red with increasing number of data points. The color is not connected
-          to quality of the data, meaning that red only means there is a lot of
-          data and not that a place is more/less accessible or inaccessible.
-          Places with no information stay white/dark.
+          The data is displayed from zoom level 14, that is, zooming close to
+          the community level. The defined zoom level is a compromise between
+          overview of the data and loading capabilities with an average internet
+          connection. The colour scheme you see is the default setting of Umap:
+          A place with little available data is displayed as blue while changing
+          to green, yellow and eventually red with increasing number of data
+          points. The colour is not connected to quality of the data, meaning
+          that red only means there is a lot of data and not that a place is
+          more/less accessible or inaccessible. Places with no information stay
+          white/dark.
         </p>
         <p>
           Most of the navigation bar functions are straight forward. If you want
@@ -107,7 +108,7 @@
         <h3>Home:</h3>
         <p>
           The map displayed on Home, shows all the data points we collected
-          regarding accessibility and inaccessibility. It is categorized by
+          regarding accessibility and inaccessibility. It is categorised by
           objects, e.g. buildings, crossing, etc. These categories are also the
           Layers of the map, which you can activate and deactivate.
         </p>
@@ -115,7 +116,7 @@
         <h3>Accessible/Inaccessible Places:</h3>
         <p>
           This map displays all the data that we connected to either accessible
-          OR inaccessible places. The information is categorized by impairments,
+          OR inaccessible places. The information is categorised by impairments,
           e.g., visual, deaf or mobility impairment.
         </p>
       </article>
@@ -161,13 +162,16 @@
         </p>
         <div class="profile">
           <figure>
-            <img src="" alt="Picture of Lennart Kerl">
+            <img src="" alt="Picture of Lennart Kerl" />
             <figcaption>Lennart Kerl</figcaption>
           </figure>
         </div>
         <div class="profile">
           <figure>
-            <img src="" alt="Picture of Samuel Darkwah Manu">
+            <img
+              src="/src/assets/sam.webp"
+              alt="Picture of Samuel Darkwah Manu"
+            />
             <figcaption>Samuel Darkwah Manu</figcaption>
           </figure>
         </div>
@@ -186,6 +190,11 @@
 @media (prefers-color-scheme: dark) {
   #header-img img {
     filter: grayscale(100%);
+  }
+
+  aside {
+    background-color: #e2e2e2;
+    color: black;
   }
 }
 
@@ -208,7 +217,15 @@
 #sidebar {
   list-style-type: none;
   width: 30%;
-  padding: 0 1rem;
+}
+
+aside {
+  background-color: #e8e2dc;
+  padding: 1rem;
+}
+
+aside img {
+  width: 300px;
 }
 
 #content {
@@ -217,12 +234,14 @@
   padding: 0 5rem;
 }
 
-article {
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-  border-bottom: 1px solid lightgray;
+h2 {
+  border-bottom: 2px solid lightgreen;
+  margin-bottom: 1.5rem;
 }
 
+article {
+  margin-bottom: 3rem;
+}
 
 ol {
   padding-top: 5px;
@@ -236,8 +255,4 @@ ul {
   text-align: justify;
   list-style-type: circle;
 }
-
-/* p {
-  text-align: justify;
-} */
 </style>
