@@ -82,11 +82,11 @@
         </p>
         <div class="galleryimg" id="StreetComplete">
           <a
-            href="/osm-accessibility-coverage/src/assets/gomap/guideimageSC123.png"
+            href="/osm-accessibility-coverage/gomap/guideimageSC123.png"
             target="_blank"
             rel="noopener noreferrer"
             ><img
-              src="/src/assets/gomap/guideimageSC123.png"
+              src="/gomap/guideimageSC123.png"
               alt="Images to show how to use Streetcomplete"
               width="600"
               height="auto"
@@ -110,12 +110,12 @@
 
         <div class="galleryimg">
           <a
-            href="/osm-accessibility-coverage/src/assets/gomap/guideimageSC456X.png"
+            href="/osm-accessibility-coverage/gomap/guideimageSC456X.png"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              src="/src/assets/gomap/guideimageSC456X.png"
+              src="/gomap/guideimageSC456X.png"
               alt="Images to show how to use Streetcomplete"
               width="600"
               height="auto"
@@ -159,12 +159,12 @@
         <p>Follow this guide to start mapping with GoMap!! on your Iphone.</p>
         <div class="galleryimg" id="GoMap">
           <a
-            href="/osm-accessibility-coverage/src/assets/gomap/guideimageStep123.png"
+            href="/osm-accessibility-coverage/gomap/guideimageStep123.png"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              src="/src/assets/gomap/guideimageStep123.png"
+              src="/gomap/guideimageStep123.png"
               alt="Images to show how to use GoMap!!"
               width="600"
               height="auto"
@@ -184,12 +184,12 @@
 
         <div class="galleryimg">
           <a
-            href="/osm-accessibility-coverage/src/assets/gomap/guideimageStep45.png"
+            href="/osm-accessibility-coverage/gomap/guideimageStep45.png"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              src="/src/assets/gomap/guideimageStep45.png"
+              src="/gomap/guideimageStep45.png"
               alt="Images to show how to use GoMap!!"
               width="600"
               height="auto"
