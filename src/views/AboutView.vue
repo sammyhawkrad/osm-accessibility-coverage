@@ -65,7 +65,7 @@
         <p>
           <img
             id="workflow"
-            src="/src/assets/gomap/workflow.png"
+            src="/osm-accessibility-coverage/gomap/workflow.png"
             alt="Image that shows the workflow"
             width="600"
             height="auto"
