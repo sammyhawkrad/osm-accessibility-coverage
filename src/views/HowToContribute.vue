@@ -81,12 +81,16 @@
           phone.
         </p>
         <div class="galleryimg" id="StreetComplete">
-          <img
-            src="/src/assets/gomap/guideimageSC123.png"
-            alt="Images to show how to use Streetcomplete"
-            width="600"
-            height="auto"
-          />
+          <a
+            href="/src/assets/gomap/guideimageSC123.png"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="/src/assets/gomap/guideimageSC123.png"
+              alt="Images to show how to use Streetcomplete"
+              width="600"
+              height="auto"
+          /></a>
           <div class="desc">
             <span>Step 1</span> After going through the onboarding screens,
             StreetComplete shows you a map interface with several buttons on the
@@ -104,13 +108,18 @@
           </div>
         </div>
 
-        <div class="galleryimg2">
-          <img
-            src="/src/assets/gomap/guideimageSC456X.png"
-            alt="Images to show how to use Streetcomplete"
-            width="600"
-            height="auto"
-          />
+        <div class="galleryimg">
+          <a
+            href="/src/assets/gomap/guideimageSC456X.png"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/src/assets/gomap/guideimageSC456X.png"
+              alt="Images to show how to use Streetcomplete"
+              width="600"
+              height="auto"
+          /></a>
           <div class="desc">
             <blockquote>
               <em>
@@ -149,12 +158,17 @@
         <h2>GoMap!! Guide</h2>
         <p>Follow this guide to start mapping with GoMap!! on your Iphone.</p>
         <div class="galleryimg" id="GoMap">
-          <img
-            src="/src/assets/gomap/guideimageStep123.png"
-            alt="Images to show how to use GoMap!!"
-            width="600"
-            height="auto"
-          />
+          <a
+            href="/src/assets/gomap/guideimageStep123.png"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/src/assets/gomap/guideimageStep123.png"
+              alt="Images to show how to use GoMap!!"
+              width="600"
+              height="auto"
+          /></a>
           <div class="desc">
             <span>Step 1</span> The GoMap!! interface is a map with a cross in
             its center. You can add information to the places where the cross is
@@ -169,12 +183,17 @@
         </div>
 
         <div class="galleryimg">
-          <img
-            src="/src/assets/gomap/guideimageStep45.png"
-            alt="Images to show how to use GoMap!!"
-            width="600"
-            height="auto"
-          />
+          <a
+            href="/src/assets/gomap/guideimageStep45.png"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/src/assets/gomap/guideimageStep45.png"
+              alt="Images to show how to use GoMap!!"
+              width="600"
+              height="auto"
+          /></a>
           <div class="desc">
             <span>Step 4</span> To upload the tag press the cloud symbol in the
             downright corner. <br />
@@ -327,6 +346,14 @@ article {
   position: relative;
 }
 
+.galleryimg img:hover {
+  cursor: zoom-in;
+  filter: opacity(50%);
+}
+
+.galleryimg a:hover {
+  background-color: rgba(253, 253, 253, 0);
+}
 .desc {
   padding: 5px;
   text-align: left;

@@ -157,8 +157,18 @@
         <h2>About the developers</h2>
         <p>
           This website was developed by Lennart Kerl and Samuel Darkwah Manu as
-          their Mapping Project in the first semester of the International
-          Master of Science in Cartography (12th intake).
+          their Mapping Project in the first semester of the
+          <a
+            href="https://cartographymaster.eu/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >International Master of Science in Cartography</a
+          >
+          (<a
+            href="https://cartographymaster.eu/category/intakes/12th-intake/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >12th intake</a>).
         </p>
         <div class="profile">
           <figure>
@@ -168,7 +178,10 @@
         </div>
         <div class="profile">
           <figure>
-            <img src="" alt="Picture of Samuel Darkwah Manu" />
+            <img
+              src="src/assets/sam.jpg"
+              alt="Picture of Samuel Darkwah Manu"
+            />
             <figcaption>Samuel Darkwah Manu</figcaption>
           </figure>
         </div>
@@ -185,7 +198,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  #header-img img {
+  img {
     filter: grayscale(100%);
   }
 
@@ -222,7 +235,16 @@ aside {
 }
 
 aside img {
-  width: 300px;
+  width: 100%;
+  height: 330px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+aside > * {
+  margin-bottom: 1rem;
 }
 
 #content {
