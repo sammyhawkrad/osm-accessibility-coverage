@@ -179,7 +179,7 @@
         <div class="profile">
           <figure>
             <img
-              src="src/assets/sam.jpg"
+              src="/src/assets/sam.jpg"
               alt="Picture of Samuel Darkwah Manu"
             />
             <figcaption>Samuel Darkwah Manu</figcaption>
