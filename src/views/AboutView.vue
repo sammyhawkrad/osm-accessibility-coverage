@@ -168,7 +168,8 @@
             href="https://cartographymaster.eu/category/intakes/12th-intake/"
             target="_blank"
             rel="noopener noreferrer"
-            >12th intake</a>).
+            >12th intake</a
+          >).
         </p>
         <div class="profile">
           <figure>
@@ -197,17 +198,6 @@
   contain: strict;
 }
 
-@media (prefers-color-scheme: dark) {
-  img {
-    filter: grayscale(100%);
-  }
-
-  aside {
-    background-color: #e2e2e2;
-    color: black;
-  }
-}
-
 #about-container {
   display: flex;
   justify-content: space-between;
@@ -216,12 +206,6 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
-}
-
-@media screen and (min-width: 1800px) {
-  #about-container {
-    width: 70%;
-  }
 }
 
 #sidebar {
@@ -273,5 +257,27 @@ ul {
   margin-top: 5px;
   text-align: justify;
   list-style-type: circle;
+}
+
+@media screen and (min-width: 1800px) {
+  #about-container {
+    width: 70%;
+  }
+
+  aside img {
+    width: auto;
+    height: 500px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: grayscale(100%);
+  }
+
+  aside {
+    background-color: #e2e2e2;
+    color: black;
+  }
 }
 </style>

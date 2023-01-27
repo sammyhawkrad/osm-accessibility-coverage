@@ -283,17 +283,6 @@
   contain: strict;
 }
 
-@media (prefers-color-scheme: dark) {
-  #header-img img {
-    filter: grayscale(100%);
-  }
-
-  aside {
-    background-color: #e2e2e2;
-    color: black;
-  }
-}
-
 #about-container {
   display: flex;
   justify-content: space-between;
@@ -302,12 +291,6 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
-}
-
-@media screen and (min-width: 1800px) {
-  #about-container {
-    width: 70%;
-  }
 }
 
 #sidebar {
@@ -358,5 +341,22 @@ article {
   padding: 5px;
   text-align: left;
   position: relative;
+}
+
+@media screen and (min-width: 1800px) {
+  #about-container {
+    width: 70%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #header-img img {
+    filter: grayscale(100%);
+  }
+
+  aside {
+    background-color: #e2e2e2;
+    color: black;
+  }
 }
 </style>
