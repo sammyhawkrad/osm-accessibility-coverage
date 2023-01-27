@@ -82,7 +82,7 @@
         </p>
         <div class="galleryimg" id="StreetComplete">
           <a
-            href="/src/assets/gomap/guideimageSC123.png"
+            href="/osm-accessibility-coverage/src/assets/gomap/guideimageSC123.png"
             target="_blank"
             rel="noopener noreferrer"
             ><img
@@ -110,7 +110,7 @@
 
         <div class="galleryimg">
           <a
-            href="/src/assets/gomap/guideimageSC456X.png"
+            href="/osm-accessibility-coverage/src/assets/gomap/guideimageSC456X.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -159,7 +159,7 @@
         <p>Follow this guide to start mapping with GoMap!! on your Iphone.</p>
         <div class="galleryimg" id="GoMap">
           <a
-            href="/src/assets/gomap/guideimageStep123.png"
+            href="/osm-accessibility-coverage/src/assets/gomap/guideimageStep123.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -184,7 +184,7 @@
 
         <div class="galleryimg">
           <a
-            href="/src/assets/gomap/guideimageStep45.png"
+            href="/osm-accessibility-coverage/src/assets/gomap/guideimageStep45.png"
             target="_blank"
             rel="noopener noreferrer"
           >
