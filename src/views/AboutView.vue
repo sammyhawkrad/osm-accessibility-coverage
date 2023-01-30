@@ -143,7 +143,7 @@
           tags we found were related to these. Other disabilities could not be
           connected to the identified tags. You can find the breakdown of tags
           and layers
-          <a href="src\assets\taglist310123.pdf" download="taglist">here</a>.
+          <a href="src\assets\tagsanddata3101.pdf" download="taglist">here</a>.
         </p>
         <br />
         Follow this link to the
@@ -173,7 +173,7 @@
         </p>
         <div class="profile">
           <figure>
-            <img src="" alt="Picture of Lennart Kerl" />
+            <img src="Lenny.png" alt="Picture of Lennart Kerl" />
             <figcaption>Lennart Kerl</figcaption>
           </figure>
         </div>
