@@ -173,7 +173,7 @@
         </p>
         <div class="profile">
           <figure>
-            <img src="Lenny.png" alt="Picture of Lennart Kerl" />
+            <img src="/src/assets/Lennart.png" alt="Picture of Lennart Kerl" />
             <figcaption>Lennart Kerl</figcaption>
           </figure>
         </div>
