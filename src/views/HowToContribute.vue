@@ -274,7 +274,12 @@
       </aside>
     </section>
   </div>
+  <FooterComponent />
 </template>
+
+<script setup>
+import FooterComponent from "../components/FooterComponent.vue";
+</script>
 
 <style scoped>
 #header-img {

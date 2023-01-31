@@ -189,7 +189,12 @@
       </aside>
     </section>
   </div>
+  <FooterComponent />
 </template>
+
+<script setup>
+import FooterComponent from "../components/FooterComponent.vue";
+</script>
 
 <style scoped>
 #header-img {
@@ -220,7 +225,6 @@ aside {
 
 aside img {
   width: 100%;
-  height: 330px;
 }
 
 figcaption {
