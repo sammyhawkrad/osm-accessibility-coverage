@@ -19,7 +19,7 @@
 
 <style scoped>
 .footer {
-  background-color: lightgray;
+  background-color: rgb(190, 187, 187);
   padding: 3em;
   margin-top: 1rem;
 }
