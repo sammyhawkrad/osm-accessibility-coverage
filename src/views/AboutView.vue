@@ -67,8 +67,6 @@
             id="workflow"
             src="/gomap/workflow.png"
             alt="Image that shows the workflow"
-            width="600"
-            height="auto"
           />
         </p>
       </article>
@@ -213,6 +211,9 @@ import FooterComponent from "../components/FooterComponent.vue";
   position: relative;
 }
 
+#workflow {
+  width: 100%;
+}
 #sidebar {
   list-style-type: none;
   width: 30%;
@@ -271,6 +272,22 @@ ul {
   aside img {
     width: auto;
     height: 500px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  #about-container {
+    display: block;
+  }
+
+  #content {
+    width: 100%;
+    padding: 0;
+  }
+
+  #sidebar {
+    list-style-type: none;
+    width: 100%;
   }
 }
 

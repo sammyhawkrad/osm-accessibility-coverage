@@ -21,6 +21,7 @@
 .footer {
   background-color: lightgray;
   padding: 3em;
+  margin-top: 1rem;
 }
 
 #logos {
@@ -28,6 +29,19 @@
   justify-content: space-between;
   height: 3rem;
   margin: 1rem 0;
+}
+
+@media screen and (max-width: 999px) {
+  img {
+    height: 2rem;
+  }
+
+  #logos {
+    height: fit-content;
+    justify-content: space-around;
+    row-gap: 1.5rem;
+    flex-wrap: wrap;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

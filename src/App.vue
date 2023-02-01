@@ -71,4 +71,24 @@ nav a {
 nav a:first-of-type {
   border: 0;
 }
+
+@media screen and (max-width: 999px) {
+  header {
+    display: block;
+    height: 16rem;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  main {
+    top: 16rem;
+    height: calc(100vh - 16rem);
+  }
+}
 </style>

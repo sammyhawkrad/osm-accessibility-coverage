@@ -88,8 +88,6 @@
             ><img
               src="/gomap/guideimageSC123.png"
               alt="Images to show how to use Streetcomplete"
-              width="600"
-              height="auto"
           /></a>
           <div class="desc">
             <span>Step 1</span> After going through the onboarding screens,
@@ -117,8 +115,6 @@
             <img
               src="/gomap/guideimageSC456X.png"
               alt="Images to show how to use Streetcomplete"
-              width="600"
-              height="auto"
           /></a>
           <div class="desc">
             <blockquote>
@@ -166,8 +162,6 @@
             <img
               src="/gomap/guideimageStep123.png"
               alt="Images to show how to use GoMap!!"
-              width="600"
-              height="auto"
           /></a>
           <div class="desc">
             <span>Step 1</span> The GoMap!! interface is a map with a cross in
@@ -191,8 +185,6 @@
             <img
               src="/gomap/guideimageStep45.png"
               alt="Images to show how to use GoMap!!"
-              width="600"
-              height="auto"
           /></a>
           <div class="desc">
             <span>Step 4</span> To upload the tag press the cloud symbol in the
@@ -292,7 +284,7 @@ import FooterComponent from "../components/FooterComponent.vue";
   display: flex;
   justify-content: space-between;
   width: 90%;
-  padding-top: 3rem;
+  padding: 3rem 0;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -334,6 +326,10 @@ article {
   position: relative;
 }
 
+.galleryimg img {
+  width: 100%;
+}
+
 .galleryimg img:hover {
   cursor: zoom-in;
   filter: opacity(50%);
@@ -351,6 +347,22 @@ article {
 @media screen and (min-width: 1800px) {
   #about-container {
     width: 70%;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  #about-container {
+    display: block;
+  }
+
+  #content {
+    width: 100%;
+    padding: 0;
+  }
+
+  #sidebar {
+    list-style-type: none;
+    width: 100%;
   }
 }
 
