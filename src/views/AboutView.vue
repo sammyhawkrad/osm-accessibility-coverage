@@ -130,13 +130,7 @@
         <ul>
           <li>The tag is named in the OSM Wiki.</li>
           <li>The tag is used in a related project.</li>
-          <li>
-            The tag is frequently used: 0,05 % of all related tags according to
-            TagInfo
-          </li>
-          <li>
-            The tag can be identified as either accessible or inaccessible.
-          </li>
+          <li>The tag can be identified as either accessible or inaccessible.</li>
         </ul>
         <p>
           We decided to work with 3 categories of impairment because all the
@@ -220,7 +214,6 @@ aside {
 
 aside img {
   width: 100%;
-  height: 330px;
 }
 
 figcaption {
