@@ -128,14 +128,16 @@
         <ul>
           <li>The tag is named in the OSM Wiki.</li>
           <li>The tag is used in a related project.</li>
-          <li>The tag can be identified as either accessible or inaccessible.</li>
+          <li>
+            The tag can be identified as either accessible or inaccessible.
+          </li>
         </ul>
         <p>
           We decided to work with 3 categories of impairment because all the
           tags we found were related to these. Other disabilities could not be
           connected to the identified tags. You can find the breakdown of tags
           and layers
-          <a href="src\assets\tagsanddata3101.pdf" download="taglist">here</a>.
+          <a href="/src/assets/tagsanddata3101.pdf" download="taglist">here</a>.
         </p>
         <br />
         Follow this link to the
