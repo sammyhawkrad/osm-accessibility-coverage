@@ -137,7 +137,7 @@
           tags we found were related to these. Other disabilities could not be
           connected to the identified tags. You can find the breakdown of tags
           and layers
-          <a href="/src/assets/tagsanddata3101.pdf" download="taglist">here</a>.
+          <a href="/public/tagsanddata3101.pdf" download="taglist.pdf">here</a>.
         </p>
         <br />
         Follow this link to the
